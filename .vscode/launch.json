@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ElectroLink · Chrome trial",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "chrome",
+      "toolArgs": [
+        "--web-port=4200",
+        "--dart-define=API_BASE_URL=http://127.0.0.1:8088"
+      ]
+    }
+  ]
+}
